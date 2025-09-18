@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anchor Tag Demo Blog</title>
+</head>
+<body>
+
+  <!-- Blog Title -->
+  <h1>Understanding Anchor Tags in HTML</h1>
+
+  <!-- Blog Introduction -->
+  <p>
+    In this demo blog, we will explore how to use the 
+    <strong>anchor tag (&lt;a&gt;)</strong> in HTML to create links within a 
+    webpage or to external resources.
+  </p>
+
+  <!-- Table of Contents -->
+  <h2>Table of Contents</h2>
+  <ul>
+    <li><a href="#intro">Introduction to Anchor Tag</a></li>
+    <li><a href="#example">Anchor Tag Example</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+
+  <!-- Sections -->
+  <h2 id="intro">Introduction to Anchor Tag</h2>
+  <p>
+    The <code>&lt;a&gt;</code> tag in HTML is used to define hyperlinks. 
+    It allows users to navigate from one page to another or jump within the same page. 
+    You can also use the <code>title</code> attribute to provide extra information 
+    when hovering over a link.
+  </p>
+
+  <h2 id="example">Anchor Tag Example</h2>
+  <p>
+    Here’s a simple example of an anchor tag:
+  </p>
+  <pre>
+&lt;a href="https://www.example.com" title="Go to Example Website"&gt;
+  Visit Example
+&lt;/a&gt;
+  </pre>
+  <p>
+    Try it here 👉 
+    <a href="https://www.example.com" title="Go to Example Website">Visit Example</a>
+  </p>
+
+  <h2 id="conclusion">Conclusion</h2>
+  <p>
+    Anchor tags make the web interconnected. You can link to external websites, 
+    internal sections, or even add a “Back to Top” button.
+  </p>
+
+  <!-- Back to Top -->
+  <p><a href="#top" title="Back to the beginning of the page">🔝 Back to Top</a></p>
+
+</body>
+</html>
